@@ -1,0 +1,47 @@
+abc.tar.gz
+bhim
+devops
+dir1
+dir1.txt
+file3
+file4
+file5
+file.txt
+test3
+vishal
+hello
+Name: Vishal Dalawai
+Date: 2nd March 2026
+Batch 13
+Task 4 : More and less commands - Adavnced VI pattern search
+1. What is the difference between more and less command
+more and less commands in Linux are used to view large files page by page in the terminal. They are called paging commands. However, less is more powerful and flexible than more.
+more command displays file content one screen at a time and allows limited
+Limitations
+Cannot easily scroll backward
+Limited navigation
+Less interactive
+less command is an improved version of more with more features. - Scroll to navigate to pages.
+The more command displays file content page by page but allows mostly forward navigation.
+The less command is an advanced pager that allows both forward and backward navigation, searching, and better control when viewing large files.
+
+2.In the vi editor, how to delete the character in forward direction?
+
+Come out of insert mode and stay in command mode, then click on x - for single character - It helps u to delete character.
+
+For multiple character - 5x, 4x, 3x etc
+
+3.In the vi editor, how to delete the character in backward direction
+
+Come out of insert mode and stay in command mode, then click on X - for single character in backward direction- It helps u to delete character.
+
+For multiple character - 5X, 4X, 3X etc
+
+
+4.In the VI editor, how do you search and replace an exact word pattern?
+Example text: good morning goodmorning good
+Write a command so that only the exact word good is replaced, and goodmorning should not be affected.
+
+esc:%s/<search pattern>/<replace pattern>/gi
+
+
